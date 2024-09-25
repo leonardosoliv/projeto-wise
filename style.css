@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
+@font-face {
+    font-family: 'WiseSans';
+    src: url(./fonts/WiseSans.ttf) format('truetype');
+}
+
+
+/* -- Estilos da página toda -- */
+
 * {
     padding: 0;
     margin: 0;
@@ -9,9 +17,47 @@
     font-size: 1rem;
 }
 
+h1 {
+    color: var(--brightGreen);
+    text-align: center;
+    font-family: 'WiseSans';
+    font-size: 9rem;
+    line-height: 85%;
+}
+
+h2 {
+    color: var(--black);
+    font-family: Inter;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+}
+
+.dirRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.gap16{
+    gap: 1rem;
+}
+
+.heroCard {
+    max-width: 32rem;
+    margin-bottom: -2px;
+}
+
+.heroHeight {
+    height: 80vh;
+}
+
 :root {
     --forestGreen: #163300;
     --brightGreen: #9FE870;
+    --white: #FFFFFF;
+    --black: #0E0F0C;
+    --gray: #454745;
 
     --brightGreen-hover: rgba(159, 232, 112, 0.1);
     --brightGreen-hoverButton: #CDFFAD;
@@ -73,7 +119,7 @@
 
 .menuButton {
     display: flex;
-    padding: 0.5rem 0.75rem;
+    padding: 0.5rem 1rem;
     justify-content: center;
     align-items: center;
 
@@ -84,10 +130,171 @@
     font-weight: 600;
     line-height: 1.5rem;
     color: var(--forestGreen);
+    text-decoration: none;
 
     transition: background 0.5s;
 }
 
+
 .menuButton:hover {
     background: var(--brightGreen-hoverButton);
 }
+
+.mainLink {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6.25rem;
+    text-decoration: none;
+    color: var(--brightGreen);
+    transition: text-decoration color 0.5s;
+
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.mainLink:hover {
+    text-decoration: underline;
+    color: var(--brightGreen-hoverButton);
+}
+
+.mainButton {
+    display: flex;
+    padding: 0.75rem 2rem;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 6.25rem;
+    background: var(--brightGreen);
+
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--forestGreen);
+    text-decoration: none;
+
+    transition: background 0.5s;
+}
+
+.mainButton:hover {
+    background: var(--brightGreen-hoverButton);
+}
+
+.secondaryButton {
+    display: flex;
+    padding: 0.75rem 2rem;
+    justify-content: center;
+    align-items: center;
+
+    border: solid 1px;
+    border-radius: 6.25rem;
+    background: var(--forestGreen);
+
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--brightGreen);
+    text-decoration: none;
+
+    transition: background 0.5s;
+}
+
+.secondaryButton:hover {
+    background: var(--brightGreen-hoverButton);
+    color: var(--forestGreen);
+}
+
+.heroSection {
+    background-color: var(--forestGreen);
+    height: 86vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    padding-left: 23rem;
+    padding-right: 23rem ;
+    justify-content: space-between;
+}
+
+.heroContent {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.heroSubtitle {
+    color: var(--white);
+    padding: 0rem 18rem 1rem;
+
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.servicosSection {
+    display: flex;
+    flex-direction: row;
+    padding: 6rem 16rem;
+    justify-content: space-between;
+    align-items: center;
+
+    background: var(--white);
+}
+
+.phoneWise {
+    max-width: 42rem;
+}
+
+.servicosContent {
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.servicosSubtitle {
+    color: var(--gray);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem;
+}
+
+.servicosFlag {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.wiseFlag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    border-radius: 100%;
+    
+    margin-left: -16px;
+}
+
+#flagBrazil {
+    margin-left: 0px;
+}
+
+.badgePlus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.2rem;
+    margin-left: -16px;
+
+    align-items: center;
+    border-radius: 100%;
+
+    text-align: center;
+    background-color: var(--brightGreen);
+    width: 1rem;

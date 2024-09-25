@@ -1,33 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Wise Business</title>
 </head>
+
 <body>
     <header>
+        <!-- Barra de navegação principal -->
         <nav class="menu">
             <img class="menuLogo" src="./images/logo-wise/wise-logo-bright-green.png" alt="Logo Wise">
             <div class="menuItems">
-                    <a class="menuLink hoverButton" href="">Benefícios</a>
-                    <a class="menuLink" href="">Cartões</a>
-                    <a class="menuLink" href="">Parceiros</a>
-                    <a class="menuLink" href="">Planos</a>
+                <a class="menuLink hoverButton" href="#servicos">Benefícios</a>
+                <a class="menuLink" href="#cartoes">Cartões</a>
+                <a class="menuLink" href="#parceiros">Parceiros</a>
+                <a class="menuLink" href="#planos">Planos</a>
             </div>
             <div class="menuAction">
-                <button class="menuButton">Abrir conta</button>
-                <a class="menuLink" href="">Entrar</a>
+                <a class="menuButton" href="">Login</a>
+                <a class="mainLink" href="">Abrir conta</a>
             </div>
-
         </nav>
     </header>
+    <!-- Início da seção principal (hero) -->
     <section>
-        <div class="hero-section">
-            <h1>Seção 1</h1>
-            <p>Essa é a primeira seção do site</p>
+        <div class="heroSection">
+            <div class="heroContent">
+                <h1>Mais economia em suas viagens</h1>
+                <p class="heroSubtitle">Viaje com o cartão Wise e tenha acesso a mais de 40 moedas, as melhores taxas do
+                    mercado e total controle sobre suas despesas, com apenas 1,1% de IOF.</p>
+                <div class="dirRow gap16">
+                    <a class="mainButton" href="">Abra a sua conta</a>
+                    <a class="secondaryButton" href="">Ver benefícios</a>
+                </div>
+            </div>
+            <div class="heroCard">
+                <img class="heroCard" src="./images/assets/img-card-brightgreen-2.png" alt="">
+            </div>
         </div>
     </section>
+        <!-- Início da seção Serviços -->
+         <section class="servicosSection">
+            <div>
+                <img class="phoneWise" src="./images/assets/mockup-app-card.webp" alt="Celular com app e cartão da Wise">
+            </div>
+            <div class="servicosContent">
+                <h2>Sua passagem para a economia global</h2>
+                <p class="servicosSubtitle">Acesso a taxas reais de câmbio, saques gratuitos em caixas eletrônicos no exterior e pagamentos sem comissões em mais de 40 moedas.</p>
+                <div class="servicosFlag">
+                    <img class="wiseFlag" id="flagBrazil" src="./images/assets/flags/wiseFlag-brazil.svg" alt="Bandeira do Brasil">
+                    <img class="wiseFlag" src="./images/assets/flags/wiseFlag-argentina.svg" alt="Bandeira da Argentina">
+                    <img class="wiseFlag" src="./images/assets/flags/wiseFlag-usa.svg" alt="Bandeira dos Estados Unidos">
+                    <img class="wiseFlag" src="./images/assets/flags/wiseFlag-chile.svg" alt="Bandeira do Chile">
+                    <img class="wiseFlag" src="./images/assets/flags/wiseFlag-portugal.svg" alt="Bandeira de Portugal">
+                    <img class="badgePlus" src="./images/assets/flags/wiseFlag-plus.svg">
+                </div>
+            </div>
+         </section>
 </body>
+
 </html>
