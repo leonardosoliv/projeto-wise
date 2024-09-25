@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: Inter;
+    font-size: 1rem;
+}
+
+:root {
+    --forestGreen: #163300;
+    --brightGreen: #9FE870;
+
+    --brightGreen-hover: rgba(159, 232, 112, 0.1);
+    --brightGreen-hoverButton: #CDFFAD;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 2rem;
+    height: 5rem;
+    padding: 0rem 6.25rem;
+
+    background-color: var(--forestGreen)
+}
+
+.menuLogo {
+    max-width: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menuItems {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: start;
+    gap: 0.25rem;
+}
+
+.menuLink {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6.25rem;
+    text-decoration: none;
+    color: var(--brightGreen);
+    transition: background 0.5s;
+
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.menuLink:hover {
+    background: var(--brightGreen-hover);
+}
+
+.menuAction {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menuButton {
+    display: flex;
+    padding: 0.5rem 0.75rem;
+    justify-content: center;
+    align-items: center;
+
+    border: 0;
+    border-radius: 6.25rem;
+    background: var(--brightGreen);
+
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--forestGreen);
+
+    transition: background 0.5s;
+}
+
+.menuButton:hover {
+    background: var(--brightGreen-hoverButton);
+}
