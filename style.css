@@ -21,7 +21,7 @@ h1 {
     color: var(--brightGreen);
     text-align: center;
     font-family: 'WiseSans';
-    font-size: 9rem;
+    font-size: 8rem;
     line-height: 85%;
 }
 
@@ -44,7 +44,7 @@ h2 {
 }
 
 .heroCard {
-    max-width: 32rem;
+    max-width: 19rem;
     margin-bottom: -2px;
 }
 
@@ -213,8 +213,8 @@ h2 {
     align-items: center;
     padding-top: 3rem;
     padding-bottom: 0;
-    padding-left: 23rem;
-    padding-right: 23rem ;
+    padding-left: 16rem;
+    padding-right: 16rem ;
     justify-content: space-between;
 }
 
@@ -227,7 +227,7 @@ h2 {
 
 .heroSubtitle {
     color: var(--white);
-    padding: 0rem 18rem 1rem;
+    padding: 0rem 15rem 1rem;
 
     font-size: 1.25rem;
     text-align: center;
@@ -244,11 +244,11 @@ h2 {
 }
 
 .phoneWise {
-    max-width: 42rem;
+    max-width: 40rem;
 }
 
 .servicosContent {
-    width: 34%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
