@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 57">
+  <defs>
+    <style>
+      .cls-1 {
+        display: none;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke-width: 0px;
+      }
+
+      .cls-4 {
+        mask: url(#mask);
+      }
+
+      .cls-3 {
+        fill: #fcfcfc;
+        fill-rule: evenodd;
+      }
+    </style>
+    <mask id="mask" x="16" y="8" width="69" height="40" maskUnits="userSpaceOnUse">
+      <g id="mask0_9261_13221" data-name="mask0 9261 13221">
+        <path class="cls-2" d="M16,8h69v40H16V8Z"/>
+      </g>
+    </mask>
+  </defs>
+  <rect class="cls-1" x="-40" width="180" height="57"/>
+  <g class="cls-4">
+    <path class="cls-3" d="M71.3,8v30.1h-7.1V9.5l7.1-1.5ZM50.9,40.9c2,0,3.6,1.6,3.6,3.5s-1.6,3.5-3.6,3.5-3.6-1.6-3.6-3.5,1.6-3.5,3.6-3.5ZM50.9,16.5c6.1,0,11,4.9,11,10.9s-4.9,10.9-11,10.9-11-4.9-11-10.9,4.9-10.9,11-10.9ZM50.9,31c2,0,3.6-1.6,3.6-3.5s-1.6-3.5-3.6-3.5-3.6,1.6-3.6,3.5,1.6,3.5,3.6,3.5ZM28.5,31c1.2,0,2.2-1,2.2-2.2,0-.6-.2-1.2-.7-1.6-.4-.4-1-.6-1.6-.6h-5.4v4.4h5.4ZM23.1,15.1v4.4h4c1.2,0,2.2-1,2.2-2.2,0-.6-.2-1.2-.7-1.6-.4-.4-1-.6-1.6-.6h-4ZM35.1,22.2c1.7,1.7,2.8,4,2.8,6.6,0,5.1-4.2,9.3-9.4,9.3h-12.5V8h11.1c5.2,0,9.4,4.2,9.4,9.3s-.5,3.5-1.4,4.9ZM84.7,24h-3.6v5.6c0,1.7.5,2.9,2,2.9s1.6-.2,1.6-.2v5.2s-1.5.9-3.5.9h0c0,0-.2,0-.3,0h0s0,0-.1,0c-4-.2-6.7-2.7-6.7-7V13l7.1-1.5v5.4h3.6v7.1Z"/>
+  </g>
+</svg>
