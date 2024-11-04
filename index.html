@@ -15,9 +15,8 @@
             <img class="menuLogo" src="./images/logo-wise/wise-logo-bright-green.png" alt="Logo Wise">
             <div class="menuItems">
                 <a class="menuLink hoverButton" href="#beneficios">Benefícios</a>
-                <a class="menuLink" href="#cartoes">Cartões</a>
+                <a class="menuLink" href="#diferenciais">Diferenciais</a>
                 <a class="menuLink" href="#parceiros">Parceiros</a>
-                <a class="menuLink" href="#planos">Planos</a>
             </div>
             <div class="menuAction">
                 <a class="menuButton" href="">Login</a>
@@ -34,7 +33,7 @@
                     mercado e total controle sobre suas despesas, com apenas 1,1% de IOF.</p>
                 <div class="dirRow gap16">
                     <a class="mainButton" href="">Abra a sua conta</a>
-                    <a class="secondaryButton" href="">Ver benefícios</a>
+                    <a class="secondaryButton" href="#beneficios">Ver benefícios</a>
                 </div>
             </div>
             <div class="heroCard">
@@ -63,7 +62,7 @@
         <!-- Início da seção Benefícios -->
         <section class="beneficiosSection">
             <div class="beneficiosSubsection">
-                <div class="beneficiosText">
+                <div id="beneficios" class="beneficiosText">
                     <h3 class="beneficiosTitle">Viva na moeda local</h3>
                     <p class="servicosSubtitle">Pague, envie e receba dinheiro nas moedas que você realmente precisa. Economize com apenas 1,1% de IOF e adicione dinheiro à sua conta a qualquer momento.</p>
                 </div>
@@ -90,34 +89,33 @@
                 </div>
             </div>
         </section>
-        <section class="diferenciaisSection paddingDefault">
+        <section id="diferenciais" class="diferenciaisSection paddingDefault">
             <div class="diferenciaisContent">
                 <div class="diferenciaisText">
-                    <h2>Seu dinheiro<br>sem fronteiras</h2>
-                    <p>Mais de 600 mil empresas, desde startups até grandes corporações, confiam na Wise para movimentar bilhões de maneira rápida, segura e eficiente, garantindo operações financeiras globais sem complicações.</p>
+                    <h2>Seu dinheiro<br>sempre livre</h2>
+                    <p>Centenas de milhares de empresas, de pequenas startups a multinacionais, escolhem a Wise para transações globais ágeis e seguras, simplificando pagamentos internacionais com eficiência e confiança inigualáveis.</p>
                 </div>
                 <img src="./images/assets/illustration/world.png" alt="Ilustração de um mundo com moedas Wise">
             </div>
             <div class="diferenciaisCards">
                 <div class="cardDefault">
-                    <img class="badgeIcon" src="./images/assets/icons/investment.svg">
+                    <img class="badgeIcon" src="./images/assets/icons/support.svg">
                     <h3>Suporte</h3>
-                    <p>Nossos especialistas em empresas, segurança e fraudes estão esponíveis por telefone ou e-mail, não importa onde você esteja.</p>
+                    <p>Nossos especialistas em empresas, segurança e fraudes estão disponíveis por telefone ou e-mail, não importa onde você esteja.</p>
                 </div>
                 <div class="cardDefault">
-                    <img class="badgeIcon" src="./images/assets/icons/investment.svg">
+                    <img class="badgeIcon" src="./images/assets/icons/security.svg">
                     <h3>Segurança</h3>
-                    <p>Nossos especialistas em empresas, segurança e fraudes estão esponíveis por telefone ou e-mail, não importa onde você esteja.</p>
+                    <p>Conte com nossos especialistas em proteção de dados, disponíveis por telefone ou e-mail, para ajudar você, não importa onde esteja.</p>
                 </div>
                 <div class="cardDefault">
-                    <img class="badgeIcon" src="./images/assets/icons/investment.svg">
-                    <h3>Proteção</h3>
-                    <p>Nossos especialistas em empresas, segurança e fraudes estão esponíveis por telefone ou e-mail, não importa onde você esteja.</p>
+                    <img class="badgeIcon" src="./images/assets/icons/privacidade.svg">
+                    <h3>Privacidade</h3>
+                    <p>Nossos especialistas em privacidade garantem suporte por telefone ou e-mail, prontos para atender você onde quer que esteja, com total confiança.</p>
                 </div>
             </div>
-            <a class="secondaryButton" href="">Abra a sua conta</a>
         </section>
-        <section class="parceirosSection">
+        <section id="parceiros" class="parceirosSection">
             <div class="logoSlider">
                 <div class="slideTrack">
                     <div class="slide">
@@ -154,13 +152,32 @@
             </div>
         </section>
         <section class="plataformaSection">
+            <video class="backgroundVideo" autoplay muted loop playsinline>
+                <source src="./images/assets/video-abstract-animation.webm" type="video/webm">
+                Seu navegador não suporta vídeos HTML5.
+            </video>
             <div id="plataformaCard" class="plataformaCard" >
-                <img src="./images/assets/illustration/coins.png" alt="">
-                <h3>Seu dinheiro<br>sem fronteiras</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit risus rutrum eros aliquam fermentum.</p>
-                <a class="buttonArrow" href="">Abra a sua conta</a>
+                <h3>O futuro<br>nas suas mãos</h3>
+                <p class="subtitle">Com a tecnologia inovadora da Wise, o futuro dos pagamentos e transferências está nas suas mãos. Experimente transações rápidas, seguras e sem complicações.</p>
+                    <a class="mainButton" href="">Seja um Wiser</a>
             </div>
         </section>
+        <footer class="paddingDefault footerDefault">
+            <div>
+                <img class="footerLogo" src="./images/logo-wise/wise-logo-bright-green.png" alt="Logo Wise">
+            </div>
+            <div class="linksFooter">
+                <a href="https://www.instagram.com/wise_no_brasil/" target="_blank">
+                    <img class="footerIcon" src="./images/assets/icons/instagram.svg" alt="Instagram">
+                </a>
+                <a href="https://wa.me/your-number" target="_blank">
+                    <img class="footerIcon" src="./images/assets/icons/whatsapp.svg" alt="WhatsApp">
+                </a>
+                <a href="https://x.com/wise" target="_blank">
+                    <img class="footerIcon" src="./images/assets/icons/x.svg" alt="X (Twitter)">
+                </a>
+            </div>
+        </footer>
 </body>
 
 </html>
